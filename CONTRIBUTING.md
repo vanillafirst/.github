@@ -2,8 +2,6 @@
 
 Obrigado por fortalecer o movimento. O VanillaFirst existe para provar que a base da tecnologia é robusta o suficiente para resolver problemas reais. Nossa regra principal é simples: **tente o código puro antes do framework.**
 
-Aceitamos repositórios e soluções construídas em **Python, Go, PHP, JavaScript puro, HTML e CSS**.
-
 ## Regras de Ouro
 
 1. **Zero Dependências:** O projeto não deve exigir a instalação de pacotes de terceiros (nada de `npm install`, `pip install` para libs externas ou `composer require`). Utilize apenas a biblioteca padrão (Standard Library) de cada linguagem e APIs nativas dos navegadores.
@@ -21,7 +19,7 @@ Para garantir a qualidade e a segurança do que construímos, todo código envia
 * **Acessibilidade e SEO:** É obrigatório o uso de atributos `alt` em imagens, navegação acessível por teclado, `aria-label` quando necessário e hierarquia correta de títulos (H1, H2, etc.).
 * **Performance:** Aplique técnicas nativas de otimização, como carregamento preguiçoso (`loading="lazy"`) em imagens.
 
-### Back-end (Python, Go, PHP)
+### Back-end
 * **Tratamento de Erros:** Não ignore falhas. Estruture blocos de `try/catch` de forma adequada e devolva mensagens de erro claras.
 * **Comentários:** Siga o padrão da linguagem escolhida (Docstrings para Python, PHPDoc para PHP, etc.).
 
